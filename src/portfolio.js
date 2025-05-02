@@ -125,7 +125,7 @@ const educationInfo = {
     {
       schoolName: "Universitas Muhammadiyah Malang",
       logo: require("./assets/images/Logo UMM.png"),
-      subHeader: "Sarjana Ilmu Komunikasi",
+      subHeader: "Ilmu Komunikasi",
       duration: "September 2020 - Agustus 2025",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [

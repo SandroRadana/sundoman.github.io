@@ -167,7 +167,7 @@ const workExperiences = {
     {
       role: "Managing In House Magazine",
       company: "BUMDes Amanah Karangsuko",
-      companylogo: require("./assets/images/LOGO BUMDES.jpg"),
+      companylogo: require("./assets/images/BUMDES AMANAH.jpg"),
       date: "  Maret 2022 - Aug 2022",
       desc: "Grapic designer dan Penulis.",
       descBullets: [

@@ -228,6 +228,10 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "http://saayahealth.com/"
+        },
+        {
+          name: "proposal",
+          url: "http://"
         }
         //  you can add extra buttons here.
       ]
@@ -240,6 +244,17 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/quoraLogo.png"),
+      projectName: "gugug",
+      projectDesc: "hahaha",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "xxxx"
         }
       ]
     }
@@ -329,10 +344,10 @@ const blogSection = {
         "Muktamar Muhammadiyah Aisyiyah ke-48 wujud kolaborasi dakwah, pendidikan, kemanusiaan, ijtihad pembaruan, dan semangat membangun bangsa."
     },
     {
-      url: "https://medium.com/@saadpasta/what-is-google-assistant-action-2f3c0a1b4d8e",
-      title: "What is Google Assistant Action?",
+      url: "https://www.kompasiana.com/sandroromaddana_3150255/6523ab074cc2af131a210293/antusias-ibu-ibu-kwt-desa-torongrejo-mengikuti-sosialisasi-digital-marketing-yang-diadakan-mahasiswa-pmm-umm",
+      title: "PMM UMM Kelompok 42 Mengadakan Sosialisasi Digital Marketing Bersama Ibu-ibu KWT Desa Torongrejo?",
       description:
-        "Google Assistant is a virtual assistant powered by artificial intelligence. It is primarily available on mobile and smart home devices."
+        "Mahasiswa PMM UMM Kelompok 42 sukses melaksanakan sosialisasi digital marketing kepada ibu-ibu KWT Desa Torongrejo, mengajarkan penggunaan media sosial dan pemasaran konten untuk meningkatkan kehadiran online dan penjualan produk UMKM mereka, yang berujung pada peningkatan pendapatan dan kemandirian digital."
     }
   ],
   display: true // Set false to hide this section, defaults to true

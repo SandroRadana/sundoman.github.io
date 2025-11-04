@@ -218,7 +218,7 @@ const openSource = {
 
 const bigProjects = {
   title: "MY PROJECTS",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Beberapa brand dan proyek yang pernah saya bantu dalam pengembangan strategi komunikasi dan konten digital",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),

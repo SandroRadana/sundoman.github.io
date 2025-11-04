@@ -27,7 +27,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-linkedin-in"></i>
+          <i className="fab fa-linkedin"></i>
           <span></span>
         </a>
       ) : null}

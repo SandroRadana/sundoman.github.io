@@ -46,72 +46,73 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "SEORANG PUBLIC RELATIONS YANG MENYUKAI TANTANGAN BARU",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Mengembangkan strategi komunikasi dan pemasaran digital untuk meningkatkan brand awareness dan engagement audiens"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Membuat serta mengelola konten kreatif (foto, video, dan desain) untuk berbagai platform media sosial dan promosi digital"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Melakukan riset pasar dan analisis tren untuk mendukung penyusunan strategi promosi yang efektif dan tepat sasaran."
+    ),
+    emoji("⚡ Menguasai tools kreatif seperti Adobe Illustrator, Photoshop, Canva, dan CapCut untuk mendukung produksi konten berkualitas tinggi.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+https://www.flaticon.com */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Public Speaking",
+      fontAwesomeClassname: "fas fa-microphone"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Content Writing",
+      fontAwesomeClassname: "fas fa-pen-fancy"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Media Relations",
+      fontAwesomeClassname: "fas fa-newspaper"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Event Management",
+      fontAwesomeClassname: "fas fa-calendar-check"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Social Media",
+      fontAwesomeClassname: "fas fa-hashtag"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Crisis Management",
+      fontAwesomeClassname: "fas fa-shield-alt"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Brand Management",
+      fontAwesomeClassname: "fas fa-copyright"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Communication Strategy",
+      fontAwesomeClassname: "fas fa-comments"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Digital Marketing",
+      fontAwesomeClassname: "fas fa-bullhorn"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "Market Research",
+      fontAwesomeClassname: "fas fa-chart-line"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Video Editing",
+      fontAwesomeClassname: "fas fa-video"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Photo Editing",
+      fontAwesomeClassname: "fas fa-camera"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Videographer",
+      fontAwesomeClassname: "fas fa-film"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -127,20 +128,13 @@ const educationInfo = {
       logo: require("./assets/images/Logo UMM.png"),
       subHeader: "Ilmu Komunikasi",
       duration: "September 2020 - Agustus 2025",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Berpartisipasi Dalam 3 Projek Praktikum.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "BUMDes Amanah Karangsuko (2022) – Mengelola proyek In House Magazine melalui riset kebutuhan klien dan penyusunan konten komunikasi yang relevan.",
+        "Sosialoka (2022–2023) – Menyusun strategi crisis handling dan proposal manajemen komunikasi untuk menjaga reputasi organisasi.",
+        "Bank Sampah Malang (2023) – Mengorganisir dan mengeksekusi event kampus secara end-to-end untuk meningkatkan citra dan partisipasi publik."
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
   ]
 };
 
@@ -150,15 +144,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Public Relations", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Event Management",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Graphic Designer",
       progressPercentage: "60%"
     }
   ],
@@ -171,29 +165,43 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Managing In House Magazine",
+      company: "BUMDes Amanah Karangsuko",
+      companylogo: require("./assets/images/LOGO BUMDES.jpg"),
+      date: "  Maret 2022 - Aug 2022",
+      desc: "Grapic designer dan Penulis.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Melakukan riset mendalam terhadap kebutuhan dan permasalahan klien yang dapat diatasi melalui in house magazine.",
+        "Mengkoordinasikan proses komunikasi untuk mendukung penyelesaian kendala yang dihadapi klien.",
+        "Merancang, mengembangkan, dan menyusun konten in house magazine berdasarkan hasil riset agar sesuai dengan kebutuhan klien."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Crisis Management",
+      company: "Sosialoka",
+      companylogo: require("./assets/images/LOGO SOSIALOKA.png"),
+      date: "Sep 2022 - Jan 2023",
+      desc: "Public Relations.",
+      descBullets: [
+        "Menganalisis enam studi kasus krisis komunikasi yang diberikan client.",
+        "Menyusun proposal manajemen krisis mencakup strategi, rencana komunikasi, dan mitigasi risiko.",
+        "Mengembangkan solusi untuk menjaga reputasi organisasi dan meningkatkan kepercayaan publik.",
+        "Menyajikan proposal manajemen krisis dalam bentuk presentasi profesional."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      role: "Event Management",
+      company: "Bank Sampah Malang",
+      companylogo: require("./assets/images/LOGO BSM.jpeg"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Public Relations.",
+      descBullets: [
+        "Melakukan riset mendalam terhadap kebutuhan dan permasalahan klien yang dapat diatasi melalui event.",
+        "Melakukan riset kebutuhan dan preferensi audiens untuk menentukan konsep event yang tepat.",
+        "Merancang, mengorganisir, dan mengeksekusi event secara end-to end.",
+        "Mengkoordinasikan komunikasi dengan tim dan stakeholder guna memastikan kelancaran pelaksanaan event.",
+        "Berhasil menghadirkan fashion show dengan partisipasi 10 putra putri kampus UMM, Miss Teen Star Jawa Timur 2023 dan Miss Cyber Mall Malang 2022."
+      ]
     }
   ]
 };
@@ -209,7 +217,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "MY PROJECTS",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -375,8 +383,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+62 85337729198",
+  email_address: "sandrromadana@gmail.com"
 };
 
 // Twitter Section

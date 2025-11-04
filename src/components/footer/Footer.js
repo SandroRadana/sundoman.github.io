@@ -19,7 +19,6 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            Theme by developerFolio
           </a>
         </p>
       </div>

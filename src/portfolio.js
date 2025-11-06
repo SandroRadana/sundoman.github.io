@@ -26,14 +26,14 @@ const greeting = {
     "Seorang Public Relations yang bersemangat 🚀 memiliki pengalaman membuat event,majalah, public relations  management dan beberapa  project keren lainnya."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1IJmOlcw6WiUdbiFdA5xrnb_mNz45QWUS/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  linkedin: "www.linkedin.com/in/sandro-romaddana-267087255/",
   gmail: "sandroradana@gmail.com",
   facebook: "https://www.facebook.com/share/16Y7YpZ8vc/ ",
   instagram: "https://www.instagram.com/sandroromaddana/",  // Add your Instagram URL here
@@ -218,32 +218,48 @@ const openSource = {
 
 const bigProjects = {
   title: "MY PROJECTS",
-  subtitle: "Beberapa brand dan proyek yang pernah saya bantu dalam pengembangan strategi komunikasi dan konten digital",
+  subtitle: "Beberapa brand dan proyek yang pernah saya bantu dalam pengembangan strategi komunikasi dan konten digital.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Cover Dummy 2.jpg"),
+      projectName: "Tirta Rhea  In House Magazine",
+      projectDesc: "Membuat In House Magazine untuk BUMDes Amanah Karangsuko",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Dummy In House Magazine",
+          url: "https://drive.google.com/file/d/1Dc-3YAVeiGd6cyRbbJB1xbw_dcpTa2lH/view?usp=sharing"
         },
         {
-          name: "proposal",
-          url: "http://"
+          name: "Proposal Kreativ",
+          url: "https://drive.google.com/file/d/1wrMg2YHhKUZxi_xWOJjViW2yTCaZU-ml/view?usp=sharing"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/LOGO SOSIALOKA.png"),
+      projectName: "Crisis Management",
+      projectDesc: "Menganalisis lima studi kasus krisis komunikasi yang diberikan Sosialoka.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Project 1 HEINZ",
+          url: "https://drive.google.com/file/d/19_9nN_i0eDg2MDew_zVrxr-XQmgkzGRf/view?usp=sharing"
+        },
+        {
+          name: "Project 2 IDETimur",
+          url: "https://drive.google.com/file/d/1TDQEEkBZOmmBBv_hqXq7EBW8I41n2D_h/view?usp=sharing"
+        },
+        {
+          name: "Project 3 AREMA",
+          url: "https://drive.google.com/file/d/1M1YNFyDpy12HVbn3Qq-y28OT7sJnx1qr/view?usp=sharing"
+        },
+        {
+          name: "Project 4 NOIS",
+          url: "https://drive.google.com/file/d/1M8Wuu5dtcyZw17PBqPSp5mB8qYd8K1gk/view?usp=sharing"
+        },
+        {
+          name: "Project 5 Cover Clearance",
+          url: "https://drive.google.com/file/d/1OD49QGQ0yGRJEMG8HjFJ9_22OCgaNW9q/view?usp=sharing"
         }
       ]
     },
@@ -255,6 +271,10 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "xxxx"
+        },
+        {
+          name: "Proposal Kreativ",
+          url: "https://drive.google.com/file/d/1Dc-3YAVeiGd6cyRbbJB1xbw_dcpTa2lH/view?usp=sharing"
         }
       ]
     }
@@ -272,23 +292,15 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "ITP TOEFL",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Centre of Language Improvement ITP TEOFL Score 547",
+      image: require("./assets/images/TOEFL LOGO.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://drive.google.com/file/d/1O_AW1yEJKRu8FAHXlESMw4UNbi57-xpF/view?usp=sharing"
         }
       ]
     },
@@ -395,11 +407,11 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me 📧"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+62 85337729198",
-  email_address: "sandrromadana@gmail.com"
+  email_address: "sandroromadana@gmail.com"
 };
 
 // Twitter Section

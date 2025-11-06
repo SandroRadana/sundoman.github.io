@@ -21,8 +21,8 @@ export default function Skills() {
               <DisplayLottie animationData={codingPerson} />
             ) : (
               <img
-                alt="Logo UMM"
-                src={require("../../assets/images/Logo UMM.png")}
+                alt="SAYA I DO"
+                src={require("../../assets/images/SAYA I DO.jpg")}
               ></img>
             )}
           </div>

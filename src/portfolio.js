@@ -33,7 +33,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  linkedin: "https://www.linkedin.com/in/sandro-romaddana-267087255/",
+  linkedin: "https://www.linkedin.com/in/saadpasta/",
   gmail: "sandroradana@gmail.com",
   facebook: "https://www.facebook.com/share/16Y7YpZ8vc/ ",
   instagram: "https://www.instagram.com/sandroromaddana/",  // Add your Instagram URL here
@@ -221,7 +221,7 @@ const bigProjects = {
   subtitle: "Beberapa brand dan proyek yang pernah saya bantu dalam pengembangan strategi komunikasi dan konten digital.",
   projects: [
     {
-      image: require("./assets/images/Cover Dummy 2.jpg"),
+      image: require("./assets/images/Cover Dummy 2.png"),
       projectName: "Tirta Rhea  In House Magazine",
       projectDesc: "Membuat In House Magazine untuk BUMDes Amanah Karangsuko",
       footerLink: [
@@ -305,29 +305,29 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Coming Soon",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Coming Soon.",
+      image: require("./assets/images/COMING SOON.jpg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Coming Soon",
+          url: "Coming Soon"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Coming Soon",
+      subtitle: "Coming Soon",
+      image: require("./assets/images/COMING SOON.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        {name: "Certification", url: "Coming Soon"},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "Coming Soon"
         }
       ]
     }

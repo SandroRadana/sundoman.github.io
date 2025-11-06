@@ -6,6 +6,7 @@ import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import sayaIdoImage from "../../assets/images/SAYA I DO.jpg";
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
@@ -22,7 +23,7 @@ export default function Skills() {
             ) : (
               <img
                 alt="SAYA I DO"
-                src={require("../../assets/images/SAYA I DO.jpg")}
+                src={sayaIdoImage}
               ></img>
             )}
           </div>

@@ -293,6 +293,17 @@ const bigProjects = {
           url: "https://www.jawapos.com/berita-sekitar-anda/011814237/festival-kreasi-sampah-upaya-tingkatkan-kesadaran-masyakarat "
         }
       ]
+    },
+    {
+      image: require("./assets/images/Logo UMM.png"),
+      projectName: "Skripsi",
+      projectDesc: "Membuat Skripsi Dengan Judul (IMPLEMENTASI KOMUNIKASI PEMASARAN DIGITAL PADA MEDIA SOSIAL INSTAGRAM ILITTERLESS DALAM MEMBANGUN BRAND AWARENES SEBAGAI STARTUP PENGELOLAHAN SAMPAH)",
+      footerLink: [
+        {
+          name: "Naskah Skripsi",
+          url: "https://drive.google.com/file/d/1FrUML2XrlV71otqwzzXWGA_iUH6Bv_ik/view?usp=sharing"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true

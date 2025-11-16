@@ -265,16 +265,32 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/quoraLogo.png"),
-      projectName: "gugug",
-      projectDesc: "hahaha",
+      projectName: "GWS Event",
+      projectDesc: "Merancang dan mengelola seluruh rangkaian event hingga menghasilkan fashion show yang berjalan sukses.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "xxxx"
+          name: "Proposal Kreativ",
+          url: "https://www.canva.com/design/DAG41CdMkQc/BFUSxKkiY44Uy9rm-5OmJg/edit"
         },
         {
-          name: "Proposal Kreativ",
+          name: "Lembar Pertanggungjawaban",
           url: "https://drive.google.com/file/d/1Dc-3YAVeiGd6cyRbbJB1xbw_dcpTa2lH/view?usp=sharing"
+        },
+        {
+          name: "Artikel Tugumalang.id",
+          url: "https://tugumalang.id/mahasiswa-prodi-ilmu-komunikasi-umm-ramaikan-acara-bank-sampah-malang-otr/"
+        },
+        {
+          name: "Artikel Kabarpasti.com",
+          url: "https://kabarpasti.com/antusias-masyarakat-ikuti-aksi-pilah-sampah-bersama-bsm-on-the-road-hingga-terkumpul-ratusan-sampah-botol-plastik-dalam-waktu-sekejap/"
+        },
+        {
+          name: "Artikel Bacamalang.com",
+          url: "https://bacamalang.com/great-waste-solution-event-kolaborasi-apik-untuk-solusi-pengelolaan-sampah/"
+        },
+        {
+          name: "Artikel Jawapos.com",
+          url: "https://www.jawapos.com/berita-sekitar-anda/011814237/festival-kreasi-sampah-upaya-tingkatkan-kesadaran-masyakarat "
         }
       ]
     }

@@ -274,7 +274,7 @@ const bigProjects = {
         },
         {
           name: "Lembar Pertanggungjawaban",
-          url: "https://drive.google.com/file/d/1Dc-3YAVeiGd6cyRbbJB1xbw_dcpTa2lH/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1m0wmC7nAUiAykTBCn8UfnEyiEJBxJsGC/view?usp=sharing"
         },
         {
           name: "Artikel Tugumalang.id",

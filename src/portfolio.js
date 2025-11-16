@@ -23,7 +23,7 @@ const greeting = {
   username: "Sandro Romaddana",
   title: "Halo, Aku Sandro",
   subTitle: emoji(
-    "Seorang Public Relations yang bersemangat 🚀 memiliki pengalaman membuat event,majalah, public relations  management dan beberapa  project keren lainnya."
+    "Seorang Public Relations 🚀 memiliki pengalaman membuat event,majalah, public relations  management dan beberapa  project keren lainnya."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1IJmOlcw6WiUdbiFdA5xrnb_mNz45QWUS/view?usp=sharing", // Set to empty to hide the button
@@ -264,8 +264,8 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/quoraLogo.png"),
-      projectName: "GWS Event",
+      image: require("./assets/images/Logo FKS.png"),
+      projectName: "Festival Kreasi Sampah Event",
       projectDesc: "Merancang dan mengelola seluruh rangkaian event hingga menghasilkan fashion show yang berjalan sukses.",
       footerLink: [
         {

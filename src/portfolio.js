@@ -33,7 +33,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  linkedin: "https://www.linkedin.com/in/sandro-romaddana-267087255/",
+  linkedin: "https://www.linkedin.com/in/sandro-romaddana-267087255",
   gmail: "sandroradana@gmail.com",
   facebook: "https://www.facebook.com/share/16Y7YpZ8vc/ ",
   instagram: "https://www.instagram.com/sandroromaddana/",  // Add your Instagram URL here

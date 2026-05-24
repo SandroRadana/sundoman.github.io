@@ -180,3 +180,40 @@
     font-size: 12px;
   }
 }
+
+@media (max-width: 768px) {
+  .header {
+    padding: 10px 16px;
+    min-height: 64px;
+  }
+
+  .header .logo {
+    font-size: clamp(1rem, 5.3vw, 1.35rem);
+    margin-top: 8px;
+    max-width: calc(100% - 76px);
+    white-space: nowrap;
+  }
+
+  .header .logo-name {
+    padding: 0 6px;
+  }
+
+  .header .menu-icon {
+    padding: 22px 8px;
+  }
+
+  .header li a {
+    padding: 13px 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 380px) {
+  .header .logo {
+    font-size: 1rem;
+  }
+
+  .header .logo-name {
+    padding: 0 4px;
+  }
+}

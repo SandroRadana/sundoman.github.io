@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ac9d9fc.css",
+    "main.css": "/static/css/main.e75f1b6b.css",
     "main.js": "/static/js/main.b711e6f0.js",
     "static/media/Cover Dummy 2.png": "/static/media/Cover Dummy 2.52060b48a93ba1d1211c.png",
     "static/media/Logo FKS.png": "/static/media/Logo FKS.669f8defec94ee7d6698.png",
@@ -14,11 +14,11 @@
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.5ac9d9fc.css.map": "/static/css/main.5ac9d9fc.css.map",
+    "main.e75f1b6b.css.map": "/static/css/main.e75f1b6b.css.map",
     "main.b711e6f0.js.map": "/static/js/main.b711e6f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ac9d9fc.css",
+    "static/css/main.e75f1b6b.css",
     "static/js/main.b711e6f0.js"
   ]
 }

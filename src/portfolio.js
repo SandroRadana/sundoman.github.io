@@ -17,7 +17,7 @@ const greeting = {
   username: "Sandro Romaddana",
   title: "Halo, Saya Sandro",
   subTitle: emoji(
-    "Public Relations dan content strategist dengan pengalaman dalam event communication, crisis communication, in-house magazine, serta komunikasi pemasaran digital."
+    "Public Relations dan content strategist dengan pengalaman dalam event management, crisis communication, in-house magazine, serta komunikasi pemasaran digital."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1IJmOlcw6WiUdbiFdA5xrnb_mNz45QWUS/view?usp=sharing",
@@ -34,7 +34,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "Public Relations, content strategy, dan event communication.",
+  subTitle: "Public Relations, content strategy, dan event management.",
   skills: [
     emoji(
       "⚡ Menyusun strategi komunikasi dan pemasaran digital untuk meningkatkan brand awareness serta engagement audiens."
@@ -132,7 +132,7 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "Event Communication",
+      Stack: "Event Management",
       progressPercentage: "75%"
     },
     {

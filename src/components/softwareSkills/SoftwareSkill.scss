@@ -3,16 +3,21 @@
 .dev-icons {
   padding-left: 0;
   list-style: none;
-  font-size: 3rem;
+  font-size: 2.1rem;
   margin-bottom: 0px;
   margin-top: 0px;
-  text-align: center;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 18px;
+  align-items: flex-start;
 }
 
 .software-skill-inline {
   display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin: 0;
+  width: 86px;
+  text-align: center;
 }
 
 .software-skill-inline > i {
@@ -35,7 +40,9 @@
 
 .software-skill-inline > p {
   color: $subTitle;
-  font-size: 10px;
+  font-size: 8.5px;
+  line-height: 1.25;
+  margin-top: 6px;
 }
 
 .dark-mode .software-skill-inline > p,
@@ -54,13 +61,14 @@
 
 @media (max-width: 768px) {
   .dev-icons {
-    font-size: 2.2rem;
+    font-size: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 14px 10px;
+    gap: 12px 8px;
     align-items: start;
-    margin: 18px auto 8px auto;
+    margin: 16px auto 8px auto;
     max-width: 340px;
+    text-align: center;
   }
 
   .software-skill-inline {
@@ -69,15 +77,15 @@
   }
 
   .software-skill-inline > p {
-    font-size: 9px;
-    line-height: 1.25;
-    margin-top: 6px;
+    font-size: 8px;
+    line-height: 1.2;
+    margin-top: 5px;
   }
 }
 
 @media (max-width: 360px) {
   .dev-icons {
-    font-size: 2rem;
-    gap: 12px 8px;
+    font-size: 1.85rem;
+    gap: 10px 6px;
   }
 }

@@ -3,17 +3,17 @@ Certain colors are used for different and multiply types of elements.
 For greater control over colors visit each components .scss file. */
 
 // button colors
-$buttonColor: #55198b;
-$buttonHover: #7c2cc0;
+$buttonColor: #4c0f7a;
+$buttonHover: #6d28d9;
 $topButtonHover: #000;
 
 // text colors light theme
-$titleColor: #111827;
-$textColor: #111827;
-$subTitle: #374151;
-$cardSubtitle: #374151;
-$talkCardSubTitle: #4b5563;
-$blogCardTitleColor: #111827;
+$titleColor: #020617;
+$textColor: #020617;
+$subTitle: #111827;
+$cardSubtitle: #111827;
+$talkCardSubTitle: #1f2937;
+$blogCardTitleColor: #020617;
 
 // text color dark theme
 $textColorDark: #ffffff;
@@ -24,24 +24,24 @@ $toggleSwitchSliderBG: #ccc;
 
 // githubRepo specific colors
 $githubRepoCardLanguageColorBG: #0000ff;
-$githubRepoCardColor: #374151;
-$githubRepoCardRepoCardStatsColor: #4b5563;
-$githubRepoCardRepoNameColor: #111827;
+$githubRepoCardColor: #111827;
+$githubRepoCardRepoCardStatsColor: #1f2937;
+$githubRepoCardRepoNameColor: #020617;
 $githubProfileCardLocationTS: #ffebcd;
 $githubProfileCardBorder: #6c63ff;
 
 // light background colors
 $lightBackground1: #ffffff;
 $lightBackground2: #ffffff;
-$lightBackground3: #f5f2f4;
-$blogCardContainerColor: #374151;
+$lightBackground3: #f8fafc;
+$blogCardContainerColor: #111827;
 // dark background colors
 $darkBackground: #171c28;
 
 // light theme box shadows
-$lightBoxShadowDark: rgba(0, 0, 0, 0.2);
-$lightBoxShadow: rgba(0, 0, 0, 0.1);
-$lightBoxShadowDarker: rgba(0, 0, 0, 0.3);
+$lightBoxShadowDark: rgba(0, 0, 0, 0.24);
+$lightBoxShadow: rgba(0, 0, 0, 0.12);
+$lightBoxShadowDarker: rgba(0, 0, 0, 0.34);
 
 // dark theme box shadows
 $darkBoxShadow: #d9dbdf;
@@ -58,33 +58,33 @@ $experienceCardBannerLG: linear-gradient(
 );
 
 // borders
-$progressBarBackground: #f3f4f6;
-$lightBorder1: rgba(17, 24, 39, 0.12);
-$educationCardBorder: #7c3aed;
+$progressBarBackground: #f1f5f9;
+$lightBorder1: rgba(2, 6, 23, 0.16);
+$educationCardBorder: #6d28d9;
 
 // hovers
 $achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2);
-$blogCardHoverSmallColor: rgba(255, 255, 255, 0.92);
-$headerHoverBG: #f3f4f6;
-$contactDetailHoverTS: #b5b5b5;
+$blogCardHoverSmallColor: rgba(255, 255, 255, 0.94);
+$headerHoverBG: #f1f5f9;
+$contactDetailHoverTS: #9ca3af;
 
 // misc backgrounds
-$progressBarSpanBG: #7c3aed;
-$iconBackground: #111827;
+$progressBarSpanBG: #6d28d9;
+$iconBackground: #020617;
 $appHeaderBG: #282c34;
 
 // misc colors
-$skillsColor: #55198b;
-$appLink: #09d3ac;
+$skillsColor: #4c0f7a;
+$appLink: #047857;
 
 // social media icons
 $faceBook: #3b5998;
 $linkedin: #0e76a8;
-$github: #333;
+$github: #111827;
 $gitlab: #fca326;
 $google: #ea4335;
 $twitter: #1da1f2;
 $medium: #000;
 $stackoverflow: #f48024;
 $instagram: #c13584;
-$kaggle: #20beff;
+$kaggle: #0284c7;

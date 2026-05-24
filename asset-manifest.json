@@ -1,9 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5ac9d9fc.css",
-    "main.js": "/static/js/main.07159698.js",
-    "static/css/769.cae22ec4.chunk.css": "/static/css/769.cae22ec4.chunk.css",
-    "static/js/769.52fc94a5.chunk.js": "/static/js/769.52fc94a5.chunk.js",
+    "main.js": "/static/js/main.9fcfa815.js",
     "static/media/Cover Dummy 2.png": "/static/media/Cover Dummy 2.52060b48a93ba1d1211c.png",
     "static/media/Logo FKS.png": "/static/media/Logo FKS.669f8defec94ee7d6698.png",
     "static/media/Logo UMM.png": "/static/media/Logo UMM.84b5e0503c6abf9e31f0.png",
@@ -17,12 +15,10 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.5ac9d9fc.css.map": "/static/css/main.5ac9d9fc.css.map",
-    "main.07159698.js.map": "/static/js/main.07159698.js.map",
-    "769.cae22ec4.chunk.css.map": "/static/css/769.cae22ec4.chunk.css.map",
-    "769.52fc94a5.chunk.js.map": "/static/js/769.52fc94a5.chunk.js.map"
+    "main.9fcfa815.js.map": "/static/js/main.9fcfa815.js.map"
   },
   "entrypoints": [
     "static/css/main.5ac9d9fc.css",
-    "static/js/main.07159698.js"
+    "static/js/main.9fcfa815.js"
   ]
 }

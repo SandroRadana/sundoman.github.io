@@ -8,6 +8,7 @@ import {
   workExperiences,
   skillsSection,
   blogSection,
+  talkSection,
   achievementSection,
   resumeSection
 } from "../../portfolio";
@@ -18,22 +19,26 @@ function Header() {
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
+  const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
 
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <a href="/" className="logo" aria-label="Sandro Romaddana Portfolio">
+        <a href="/" className="logo">
+          <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
+          <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
-        <label className="menu-icon" htmlFor="menu-btn">
+        <label
+          className="menu-icon"
+          htmlFor="menu-btn"
+          style={{color: "white"}}
+        >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
-          <li>
-            <a href="#greeting">About</a>
-          </li>
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
@@ -41,20 +46,22 @@ function Header() {
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Experience</a>
+              <a href="#experience">Work Experiences</a>
             </li>
           )}
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
           {viewAchievement && (
             <li>
-              <a href="#achievements">Certificates</a>
+              <a href="#achievements">Achievements</a>
             </li>
           )}
           {viewBlog && (
             <li>
-              <a href="#blogs">Articles</a>
+              <a href="#blogs">Blogs</a>
+            </li>
+          )}
+          {viewTalks && (
+            <li>
+              <a href="#talks">Talks</a>
             </li>
           )}
           {viewResume && (
@@ -63,11 +70,11 @@ function Header() {
             </li>
           )}
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact">Contact Me</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a className="theme-toggle-link">
+            <a>
               <ToggleSwitch />
             </a>
           </li>

@@ -33,7 +33,7 @@ const socialMediaLinks = {
 };
 
 const skillsSection = {
-  title: "Core Competencies",
+  title: "What I Do",
   subTitle:
     "Fokus utama saya adalah Public Relations, Event Management, Marketing Communication, Media, dan Brand Activation.",
   skills: [

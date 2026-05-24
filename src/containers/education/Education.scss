@@ -23,6 +23,12 @@
   padding-top: 20px;
 }
 
+.education-text-subtitle {
+  text-align: justify;
+  text-align-last: left;
+  line-height: 1.7;
+}
+
 @media (max-width: 1380px) {
   .education-card-container {
     padding-top: 0px;
@@ -32,11 +38,17 @@
   }
   .education-text-subtitle {
     font-size: 18px;
-    text-align: center;
+    text-align: justify;
+    text-align-last: left;
   }
 }
 
 @media (max-width: 768px) {
+  .education-section {
+    width: 92%;
+    padding: 10px 0px;
+    margin-top: 1.5rem;
+  }
   .education-card-container {
     padding-top: 0px;
   }
@@ -46,5 +58,8 @@
   }
   .education-text-subtitle {
     font-size: 16px;
+    line-height: 1.7;
+    text-align: justify;
+    text-align-last: left;
   }
 }

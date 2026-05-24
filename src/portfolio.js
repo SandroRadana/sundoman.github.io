@@ -1,66 +1,54 @@
-/* Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
+/* Portfolio content for Sandro Romaddana */
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
-// Splash Screen
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true,
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000
 };
 
-// Summary And Greeting Section
-
 const illustration = {
-  animated: false // Set to false to use static SVG
+  animated: false
 };
 
 const greeting = {
   username: "Sandro Romaddana",
-  title: "Halo, Aku Sandro",
+  title: "Halo, Saya Sandro",
   subTitle: emoji(
-    "Seorang Public Relations 🚀 memiliki pengalaman membuat event,majalah, public relations  management dan beberapa  project keren lainnya."
+    "Public Relations dan content strategist dengan pengalaman dalam event communication, crisis communication, in-house magazine, serta komunikasi pemasaran digital."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1IJmOlcw6WiUdbiFdA5xrnb_mNz45QWUS/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1IJmOlcw6WiUdbiFdA5xrnb_mNz45QWUS/view?usp=sharing",
+  displayGreeting: true
 };
-
-// Social Media Links
 
 const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/sandro-romaddana-267087255",
   gmail: "sandroradana@gmail.com",
-  facebook: "https://www.facebook.com/share/16Y7YpZ8vc/ ",
-  instagram: "https://www.instagram.com/sandroromaddana/",  // Add your Instagram URL here
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  facebook: "https://www.facebook.com/share/16Y7YpZ8vc/",
+  instagram: "https://www.instagram.com/sandroromaddana/",
+  display: true
 };
 
-// Skills Section
-
 const skillsSection = {
-  title: "What I do",
-  subTitle: "SEORANG PUBLIC RELATIONS YANG MENYUKAI TANTANGAN BARU",
+  title: "What I Do",
+  subTitle: "Public Relations, content strategy, dan event communication.",
   skills: [
     emoji(
-      "⚡ Mengembangkan strategi komunikasi dan pemasaran digital untuk meningkatkan brand awareness dan engagement audiens"
+      "⚡ Menyusun strategi komunikasi dan pemasaran digital untuk meningkatkan brand awareness serta engagement audiens."
     ),
-    emoji("⚡ Membuat serta mengelola konten kreatif (foto, video, dan desain) untuk berbagai platform media sosial dan promosi digital"),
     emoji(
-      "⚡ Melakukan riset pasar dan analisis tren untuk mendukung penyusunan strategi promosi yang efektif dan tepat sasaran."
+      "⚡ Membuat dan mengelola konten kreatif untuk media sosial, kampanye digital, dan kebutuhan promosi."
     ),
-    emoji("⚡ Menguasai tools kreatif seperti Adobe Illustrator, Photoshop, Canva, dan CapCut untuk mendukung produksi konten berkualitas tinggi.")
+    emoji(
+      "⚡ Melakukan riset audiens, tren, dan kebutuhan klien sebagai dasar penyusunan strategi komunikasi."
+    ),
+    emoji(
+      "⚡ Menggunakan Adobe Illustrator, Photoshop, Canva, dan CapCut untuk mendukung produksi konten visual."
+    )
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://www.flaticon.com */
-
   softwareSkills: [
     {
       skillName: "Public Speaking",
@@ -111,135 +99,125 @@ https://www.flaticon.com */
       fontAwesomeClassname: "fas fa-camera"
     },
     {
-      skillName: "Videographer",
+      skillName: "Videography",
       fontAwesomeClassname: "fas fa-film"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
-// Education Section
-
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
       schoolName: "Universitas Muhammadiyah Malang",
       logo: require("./assets/images/Logo UMM.png"),
       subHeader: "Ilmu Komunikasi",
       duration: "September 2020 - Agustus 2025",
-      desc: "Berpartisipasi Dalam 3 Projek Praktikum.",
+      desc: "Berpartisipasi dalam tiga proyek praktikum komunikasi.",
       descBullets: [
-        "BUMDes Amanah Karangsuko (2022) – Mengelola proyek In House Magazine melalui riset kebutuhan klien dan penyusunan konten komunikasi yang relevan.",
+        "BUMDes Amanah Karangsuko (2022) – Mengelola proyek in-house magazine melalui riset kebutuhan klien dan penyusunan konten komunikasi.",
         "Sosialoka (2022–2023) – Menyusun strategi crisis handling dan proposal manajemen komunikasi untuk menjaga reputasi organisasi.",
         "Bank Sampah Malang (2023) – Mengorganisir dan mengeksekusi event kampus secara end-to-end untuk meningkatkan citra dan partisipasi publik."
       ]
-    },
+    }
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
-
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Public Relations", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Public Relations",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Event Management",
+      Stack: "Event Communication",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Content Strategy",
       progressPercentage: "70%"
-    },
-    {
-      Stack: "Graphic Designer",
-      progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
-// Work experience section
-
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Managing In House Magazine",
+      role: "In-House Magazine Team",
       company: "BUMDes Amanah Karangsuko",
       companylogo: require("./assets/images/BUMDES AMANAH.jpg"),
-      date: "  Maret 2022 - Aug 2022",
-      desc: "Grapic designer dan Penulis.",
+      date: "Maret 2022 - Agustus 2022",
+      desc: "Graphic designer dan content writer.",
       descBullets: [
-        "Melakukan riset mendalam terhadap kebutuhan dan permasalahan klien yang dapat diatasi melalui in house magazine.",
-        "Mengkoordinasikan proses komunikasi untuk mendukung penyelesaian kendala yang dihadapi klien.",
-        "Merancang, mengembangkan, dan menyusun konten in house magazine berdasarkan hasil riset agar sesuai dengan kebutuhan klien."
+        "Melakukan riset kebutuhan dan permasalahan klien sebagai dasar penyusunan in-house magazine.",
+        "Mengembangkan konsep, konten, dan visual majalah agar sesuai dengan kebutuhan komunikasi klien.",
+        "Mengkoordinasikan proses komunikasi internal untuk mendukung penyelesaian proyek."
       ]
     },
     {
-      role: "Crisis Management",
+      role: "Crisis Management Team",
       company: "Sosialoka",
       companylogo: require("./assets/images/LOGO SOSIALOKA.png"),
-      date: "Sep 2022 - Jan 2023",
+      date: "September 2022 - Januari 2023",
       desc: "Public Relations.",
       descBullets: [
-        "Menganalisis enam studi kasus krisis komunikasi yang diberikan client.",
-        "Menyusun proposal manajemen krisis mencakup strategi, rencana komunikasi, dan mitigasi risiko.",
-        "Mengembangkan solusi untuk menjaga reputasi organisasi dan meningkatkan kepercayaan publik.",
+        "Menganalisis enam studi kasus krisis komunikasi dari klien.",
+        "Menyusun proposal manajemen krisis yang mencakup strategi, rencana komunikasi, dan mitigasi risiko.",
+        "Mengembangkan solusi komunikasi untuk menjaga reputasi organisasi dan meningkatkan kepercayaan publik.",
         "Menyajikan proposal manajemen krisis dalam bentuk presentasi profesional."
       ]
     },
     {
-      role: "Event Management",
+      role: "Event Management Team",
       company: "Bank Sampah Malang",
       companylogo: require("./assets/images/LOGO BSM.jpeg"),
-      date: "Jan 2015 – Sep 2015",
+      date: "Januari 2023 - September 2023",
       desc: "Public Relations.",
       descBullets: [
-        "Melakukan riset mendalam terhadap kebutuhan dan permasalahan klien yang dapat diatasi melalui event.",
-        "Melakukan riset kebutuhan dan preferensi audiens untuk menentukan konsep event yang tepat.",
-        "Merancang, mengorganisir, dan mengeksekusi event secara end-to end.",
-        "Mengkoordinasikan komunikasi dengan tim dan stakeholder guna memastikan kelancaran pelaksanaan event.",
-        "Berhasil menghadirkan fashion show dengan partisipasi 10 putra putri kampus UMM, Miss Teen Star Jawa Timur 2023 dan Miss Cyber Mall Malang 2022."
+        "Melakukan riset kebutuhan klien dan preferensi audiens untuk menentukan konsep event yang tepat.",
+        "Merancang, mengorganisir, dan mengeksekusi event secara end-to-end.",
+        "Mengkoordinasikan komunikasi dengan tim dan stakeholder untuk memastikan kelancaran acara.",
+        "Berhasil menghadirkan fashion show dengan partisipasi 10 putra-putri kampus UMM, Miss Teen Star Jawa Timur 2023, dan Miss Cyber Mall Malang 2022."
       ]
     }
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "true",
+  display: true
 };
 
-// Some big projects you have worked on
-
 const bigProjects = {
-  title: "MY PROJECTS",
-  subtitle: "Beberapa brand dan proyek yang pernah saya bantu dalam pengembangan strategi komunikasi dan konten digital.",
+  title: "Selected Projects",
+  subtitle:
+    "Beberapa proyek yang menunjukkan pengalaman saya dalam strategi komunikasi, konten, event, dan public relations.",
   projects: [
     {
       image: require("./assets/images/Cover Dummy 2.png"),
-      projectName: "Tirta Rhea  In House Magazine",
-      projectDesc: "Membuat In House Magazine untuk BUMDes Amanah Karangsuko",
+      projectName: "Tirta Rhea In-House Magazine",
+      projectDesc:
+        "Menyusun in-house magazine untuk BUMDes Amanah Karangsuko, mulai dari riset kebutuhan, perencanaan konten, hingga pengemasan visual.",
       footerLink: [
         {
-          name: "Dummy In House Magazine",
+          name: "Dummy In-House Magazine",
           url: "https://drive.google.com/file/d/1Dc-3YAVeiGd6cyRbbJB1xbw_dcpTa2lH/view?usp=sharing"
         },
         {
-          name: "Proposal Kreativ",
+          name: "Proposal Kreatif",
           url: "https://drive.google.com/file/d/1wrMg2YHhKUZxi_xWOJjViW2yTCaZU-ml/view?usp=sharing"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/LOGO SOSIALOKA.png"),
       projectName: "Crisis Management",
-      projectDesc: "Menganalisis lima studi kasus krisis komunikasi yang diberikan Sosialoka.",
+      projectDesc:
+        "Menganalisis studi kasus krisis komunikasi dan menyusun rekomendasi strategi penanganan reputasi untuk Sosialoka.",
       footerLink: [
         {
           name: "Project 1 HEINZ",
@@ -265,15 +243,16 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/Logo FKS.png"),
-      projectName: "Festival Kreasi Sampah Event",
-      projectDesc: "Merancang dan mengelola seluruh rangkaian event hingga menghasilkan fashion show yang berjalan sukses.",
+      projectName: "Festival Kreasi Sampah",
+      projectDesc:
+        "Merancang dan mengelola rangkaian event Bank Sampah Malang, termasuk konsep acara, koordinasi stakeholder, dan publikasi media.",
       footerLink: [
         {
-          name: "Proposal Kreativ",
+          name: "Proposal Kreatif",
           url: "https://www.canva.com/design/DAG41CdMkQc/BFUSxKkiY44Uy9rm-5OmJg/edit"
         },
         {
-          name: "Lembar Pertanggungjawaban",
+          name: "Laporan Pertanggungjawaban",
           url: "https://drive.google.com/file/d/1m0wmC7nAUiAykTBCn8UfnEyiEJBxJsGC/view?usp=sharing"
         },
         {
@@ -290,14 +269,15 @@ const bigProjects = {
         },
         {
           name: "Artikel Jawapos.com",
-          url: "https://www.jawapos.com/berita-sekitar-anda/011814237/festival-kreasi-sampah-upaya-tingkatkan-kesadaran-masyakarat "
+          url: "https://www.jawapos.com/berita-sekitar-anda/011814237/festival-kreasi-sampah-upaya-tingkatkan-kesadaran-masyakarat"
         }
       ]
     },
     {
       image: require("./assets/images/Logo UMM.png"),
       projectName: "Skripsi",
-      projectDesc: "Membuat Skripsi Dengan Judul (IMPLEMENTASI KOMUNIKASI PEMASARAN DIGITAL PADA MEDIA SOSIAL INSTAGRAM ILITTERLESS DALAM MEMBANGUN BRAND AWARENES SEBAGAI STARTUP PENGELOLAHAN SAMPAH)",
+      projectDesc:
+        "Penelitian tentang implementasi komunikasi pemasaran digital pada media sosial Instagram Ilitterless dalam membangun brand awareness sebagai startup pengelolaan sampah.",
       footerLink: [
         {
           name: "Naskah Skripsi",
@@ -306,129 +286,86 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
-// Achievement Section
-// Include certificates, talks etc
-
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+  title: emoji("Achievements & Certifications 🏆"),
+  subtitle: "Sertifikasi dan pencapaian yang mendukung kompetensi profesional saya.",
   achievementsCards: [
     {
       title: "ITP TOEFL",
-      subtitle:
-        "Centre of Language Improvement ITP TEOFL Score 547",
+      subtitle: "Centre of Language Improvement - ITP TOEFL Score 547",
       image: require("./assets/images/TOEFL LOGO.png"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "ITP TOEFL Certificate",
       footerLink: [
         {
-          name: "Certification",
+          name: "Certificate",
           url: "https://drive.google.com/file/d/1O_AW1yEJKRu8FAHXlESMw4UNbi57-xpF/view?usp=sharing"
-        }
-      ]
-    },
-    {
-      title: "Coming Soon",
-      subtitle:
-        "Coming Soon.",
-      image: require("./assets/images/COMING SOON.jpg"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "Coming Soon",
-          url: "Coming Soon"
-        }
-      ]
-    },
-
-    {
-      title: "Coming Soon",
-      subtitle: "Coming Soon",
-      image: require("./assets/images/COMING SOON.jpg"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: "Coming Soon"},
-        {
-          name: "Final Project",
-          url: "Coming Soon"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
-// Blogs Section
-
 const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "Saya Suka Menulis Apa Yang Saya Suka.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  title: "Articles",
+  subtitle: "Tulisan saya tentang kegiatan sosial, komunikasi, dan pemberdayaan masyarakat.",
+  displayMediumBlogs: "false",
   blogs: [
     {
       url: "https://www.kompasiana.com/sandroromaddana_3150255/652ffb16110fce761173f0d3/pmm-kelompok-42-mengubah-sampah-organik-menjadi-ecoenzym-bersama-kelompok-wanita-tani-kwt-desa-torongrejo",
-      title: "PMM Kelompok 42 Mengubah Sampah Organik Menjadi Ecoenzym bersama Kelompok Wanita Tani (KWT) Desa Torongrejo",
+      title:
+        "PMM Kelompok 42 Mengubah Sampah Organik Menjadi Ecoenzym bersama Kelompok Wanita Tani Desa Torongrejo",
       description:
-        "Mengetahui tatacara membuat ecoenzym bersama bersama Kelompok Wanita Tani (KWT) Desa Torongrejo"
+        "Artikel kegiatan pemberdayaan masyarakat terkait pengolahan sampah organik menjadi ecoenzym."
     },
     {
       url: "https://www.kompasiana.com/sandroromaddana_3150255/637ab9a34addee346063b802/muktamar-muhammadiyah-aisyiyah-ke-48-memajukan-bangsa",
       title: "Muktamar Muhammadiyah - Aisyiyah ke-48 Memajukan Bangsa",
       description:
-        "Muktamar Muhammadiyah Aisyiyah ke-48 wujud kolaborasi dakwah, pendidikan, kemanusiaan, ijtihad pembaruan, dan semangat membangun bangsa."
+        "Tulisan tentang kolaborasi dakwah, pendidikan, kemanusiaan, dan semangat membangun bangsa."
     },
     {
       url: "https://www.kompasiana.com/sandroromaddana_3150255/6523ab074cc2af131a210293/antusias-ibu-ibu-kwt-desa-torongrejo-mengikuti-sosialisasi-digital-marketing-yang-diadakan-mahasiswa-pmm-umm",
-      title: "PMM UMM Kelompok 42 Mengadakan Sosialisasi Digital Marketing Bersama Ibu-ibu KWT Desa Torongrejo?",
+      title:
+        "PMM UMM Kelompok 42 Mengadakan Sosialisasi Digital Marketing Bersama Ibu-Ibu KWT Desa Torongrejo",
       description:
-        "Mahasiswa PMM UMM Kelompok 42 sukses melaksanakan sosialisasi digital marketing kepada ibu-ibu KWT Desa Torongrejo, mengajarkan penggunaan media sosial dan pemasaran konten untuk meningkatkan kehadiran online dan penjualan produk UMKM mereka, yang berujung pada peningkatan pendapatan dan kemandirian digital."
+        "Artikel tentang edukasi pemasaran digital untuk mendukung peningkatan kapasitas UMKM lokal."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
-
-// Talks Sections
 
 const talkSection = {
-  display: false // Set false to hide this section
+  display: false
 };
-
-// Podcast Section
 
 const podcastSection = {
-  display: false // Set false to hide this section
+  display: false
 };
 
-// Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "Unduh resume saya untuk melihat pengalaman dan kompetensi secara lebih lengkap.",
+  display: true
 };
 
 const contactInfo = {
   title: emoji("Contact Me 📧"),
   subtitle:
-    "Membahas proyek atau sekadar ingin menyapa? Kotak Masuk saya terbuka untuk semua.",
+    "Terbuka untuk diskusi proyek, kolaborasi, magang, dan peluang kerja di bidang komunikasi.",
   number: "+62 85337729198",
-  email_address: "sandroromadana@gmail.com"
+  email_address: "sandroradana@gmail.com"
 };
-
-// Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "",
+  display: false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true;
 
 export {
   illustration,

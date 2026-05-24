@@ -17,16 +17,15 @@ const greeting = {
   username: "Sandro Romaddana",
   title: "Halo, Saya Sandro",
   subTitle: emoji(
-    "Saya berfokus pada Public Relations, Content Strategy, dan Event Management. Portfolio ini menampilkan proyek komunikasi, pengelolaan event, crisis management, in-house magazine, dan komunikasi pemasaran digital."
+    "Fresh graduate Ilmu Komunikasi Universitas Muhammadiyah Malang dengan pengalaman praktis dalam Public Relations, Crisis Handling, Event Management, content strategy, dan komunikasi pemasaran digital. Terbiasa melakukan riset kebutuhan audiens, menyusun konten strategis, serta berkoordinasi dengan stakeholder untuk memastikan kelancaran proyek."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1IJmOlcw6WiUdbiFdA5xrnb_mNz45QWUS/view?usp=sharing",
+  resumeLink: "https://sandroradana.github.io/CV-Sandro-Romaddana.pdf",
   displayGreeting: true
 };
 
 const socialMediaLinks = {
-  linkedin: "https://www.linkedin.com/in/sandro-romaddana-267087255",
-  gmail: "sandroradana@gmail.com",
+  linkedin: "https://www.linkedin.com/in/sandro-romaddana/",
+  gmail: "sandroromadana@gmail.com",
   facebook: "https://www.facebook.com/share/16Y7YpZ8vc/",
   instagram: "https://www.instagram.com/sandroromaddana/",
   display: true
@@ -35,73 +34,69 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "Core Competencies",
   subTitle:
-    "Fokus utama saya adalah komunikasi strategis, pengelolaan event, dan pengembangan konten digital.",
+    "Fokus utama saya adalah Public Relations, Event Management, Marketing Communication, Media, dan Brand Activation.",
   skills: [
     emoji(
-      "⚡ Menyusun strategi komunikasi untuk meningkatkan brand awareness, engagement, dan kepercayaan publik."
+      "⚡ Merancang dan mengeksekusi event, mulai dari riset audiens, konsep acara, koordinasi tim, hingga pelaksanaan."
     ),
     emoji(
-      "⚡ Mengelola konsep, konten, dan publikasi untuk media sosial, kampanye digital, dan kebutuhan promosi."
+      "⚡ Menyusun strategi komunikasi, crisis handling, pesan utama, rencana komunikasi, dan mitigasi risiko."
     ),
     emoji(
-      "⚡ Melakukan riset audiens, tren, dan kebutuhan klien sebagai dasar pengambilan keputusan komunikasi."
+      "⚡ Mengelola konten strategis untuk media sosial, publikasi kegiatan, artikel daring, dan kebutuhan promosi."
     ),
     emoji(
-      "⚡ Mendukung produksi konten visual menggunakan Adobe Illustrator, Photoshop, Canva, CapCut, dan tools kreatif lainnya."
+      "⚡ Berkoordinasi dengan stakeholder, talent, tim dekorasi, publikasi, dan dokumentasi untuk menjaga kelancaran proyek."
     )
   ],
   softwareSkills: [
     {
-      skillName: "Public Speaking",
-      fontAwesomeClassname: "fas fa-microphone"
-    },
-    {
-      skillName: "Content Writing",
-      fontAwesomeClassname: "fas fa-pen-fancy"
-    },
-    {
-      skillName: "Media Relations",
-      fontAwesomeClassname: "fas fa-newspaper"
-    },
-    {
-      skillName: "Event Management",
+      skillName: "Event Planning & Execution",
       fontAwesomeClassname: "fas fa-calendar-check"
     },
     {
-      skillName: "Social Media",
+      skillName: "Talent & Stakeholder Coordination",
+      fontAwesomeClassname: "fas fa-users"
+    },
+    {
+      skillName: "Community Engagement",
+      fontAwesomeClassname: "fas fa-hands-helping"
+    },
+    {
+      skillName: "Public Relations & Media Handling",
+      fontAwesomeClassname: "fas fa-newspaper"
+    },
+    {
+      skillName: "Content Strategy & Social Media",
       fontAwesomeClassname: "fas fa-hashtag"
     },
     {
-      skillName: "Crisis Management",
+      skillName: "Crisis Handling",
       fontAwesomeClassname: "fas fa-shield-alt"
     },
     {
-      skillName: "Brand Management",
-      fontAwesomeClassname: "fas fa-copyright"
+      skillName: "Canva",
+      fontAwesomeClassname: "fas fa-palette"
     },
     {
-      skillName: "Communication Strategy",
-      fontAwesomeClassname: "fas fa-comments"
+      skillName: "Adobe Illustrator",
+      fontAwesomeClassname: "fas fa-pen-nib"
     },
     {
-      skillName: "Digital Marketing",
-      fontAwesomeClassname: "fas fa-bullhorn"
+      skillName: "Adobe Photoshop",
+      fontAwesomeClassname: "fas fa-image"
     },
     {
-      skillName: "Market Research",
-      fontAwesomeClassname: "fas fa-chart-line"
-    },
-    {
-      skillName: "Video Editing",
+      skillName: "CapCut",
       fontAwesomeClassname: "fas fa-video"
     },
     {
-      skillName: "Photo Editing",
-      fontAwesomeClassname: "fas fa-camera"
+      skillName: "Microsoft Office",
+      fontAwesomeClassname: "fas fa-file-alt"
     },
     {
-      skillName: "Videography",
-      fontAwesomeClassname: "fas fa-film"
+      skillName: "Problem Solving & Time Management",
+      fontAwesomeClassname: "fas fa-clock"
     }
   ],
   display: true
@@ -113,13 +108,13 @@ const educationInfo = {
     {
       schoolName: "Universitas Muhammadiyah Malang",
       logo: require("./assets/images/Logo UMM.png"),
-      subHeader: "Ilmu Komunikasi",
-      duration: "September 2020 - Agustus 2025",
-      desc: "Mengikuti proyek praktikum komunikasi yang berfokus pada media internal, crisis management, dan event management.",
+      subHeader: "Gelar Sarjana, Ilmu Komunikasi — IPK 3,35/4.00",
+      duration: "Oktober 2020 - Agustus 2024",
+      desc: "Mempelajari teori dan praktik komunikasi, public relations, komunikasi pemasaran digital, media sosial, serta manajemen komunikasi.",
       descBullets: [
-        "BUMDes Amanah Karangsuko (2022) — Mengelola proyek in-house magazine berbasis riset kebutuhan klien.",
-        "Sosialoka (2022–2023) — Menyusun strategi crisis handling dan proposal manajemen komunikasi.",
-        "Bank Sampah Malang (2023) — Mengorganisir event kampus untuk meningkatkan citra, partisipasi publik, dan awareness pengelolaan sampah."
+        "Mengembangkan keterampilan analisis media, penulisan naskah, riset komunikasi, dan strategi kampanye.",
+        "Melaksanakan proyek praktikum dalam pembuatan konten kreatif, event management, dan penelitian akademik komunikasi.",
+        "Menyelesaikan penelitian akademik tentang komunikasi pemasaran digital dan brand awareness pada startup pengelolaan sampah."
       ]
     }
   ]
@@ -134,11 +129,11 @@ const techStack = {
     },
     {
       Stack: "Event Management",
-      progressPercentage: "75%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Content Strategy",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false
@@ -148,41 +143,40 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "In-House Magazine Team",
-      company: "BUMDes Amanah Karangsuko",
-      companylogo: require("./assets/images/BUMDES AMANAH.jpg"),
-      date: "Maret 2022 - Agustus 2022",
-      desc: "Graphic designer dan content writer untuk proyek media internal.",
+      role: "Event Management - Praktikum",
+      company: "Bank Sampah Malang",
+      companylogo: require("./assets/images/LOGO BSM.jpeg"),
+      date: "Februari 2023 - Juli 2023",
+      desc: "Merancang dan mengeksekusi event fashion show skala kampus.",
       descBullets: [
-        "Melakukan riset kebutuhan klien sebagai dasar penyusunan konsep majalah.",
-        "Mengembangkan konten dan visual majalah agar selaras dengan tujuan komunikasi organisasi.",
-        "Berkoordinasi dengan tim untuk menjaga alur kerja, kualitas konten, dan ketepatan penyelesaian proyek."
+        "Merancang dan mengeksekusi seluruh rangkaian event fashion show, mulai dari riset audiens, konsep acara, hingga koordinasi tim.",
+        "Mengelola komunikasi dengan stakeholder untuk memastikan kelancaran acara.",
+        "Mengkoordinasi talent Putra Putri Kampus UMM, Miss Teen Star Jatim 2023, dan Miss Cyber Mall Malang 2022.",
+        "Berkomunikasi dengan tim dekorasi, publikasi, dan dokumentasi untuk memastikan eksekusi sesuai timeline."
       ]
     },
     {
-      role: "Crisis Management Team",
+      role: "Public Relations - Praktikum",
       company: "Sosialoka",
       companylogo: require("./assets/images/LOGO SOSIALOKA.png"),
       date: "September 2022 - Januari 2023",
-      desc: "Public Relations untuk analisis dan rekomendasi penanganan krisis komunikasi.",
+      desc: "Menyusun strategi komunikasi dan mitigasi risiko untuk kasus krisis.",
       descBullets: [
-        "Menganalisis enam studi kasus krisis komunikasi dari klien.",
-        "Menyusun proposal manajemen krisis yang mencakup strategi, rencana komunikasi, dan mitigasi risiko.",
-        "Mengembangkan rekomendasi komunikasi untuk menjaga reputasi organisasi dan kepercayaan publik.",
-        "Menyajikan proposal dalam format presentasi profesional."
+        "Menganalisis 5 studi kasus krisis untuk menyusun strategi komunikasi dan mitigasi risiko.",
+        "Menyusun proposal manajemen krisis mencakup pesan utama, rencana komunikasi, dan rekomendasi tindakan.",
+        "Menyajikan solusi dalam presentasi profesional kepada pihak klien."
       ]
     },
     {
-      role: "Event Management Team",
-      company: "Bank Sampah Malang",
-      companylogo: require("./assets/images/LOGO BSM.jpeg"),
-      date: "Januari 2023 - September 2023",
-      desc: "Public Relations untuk perencanaan, koordinasi, dan eksekusi event kampus.",
+      role: "Managing In-House Magazine - Praktikum",
+      company: "BUMDes Amanah Karangsuko",
+      companylogo: require("./assets/images/BUMDES AMANAH.jpg"),
+      date: "Maret 2022 - Agustus 2022",
+      desc: "Mengembangkan media internal berdasarkan kebutuhan komunikasi klien.",
       descBullets: [
-        "Melakukan riset kebutuhan klien dan preferensi audiens untuk menentukan konsep acara.",
-        "Merancang dan mengeksekusi event secara end-to-end, mulai dari konsep hingga pelaksanaan.",
-        "Mengkoordinasikan komunikasi dengan tim, stakeholder, dan pihak pendukung acara.",
-        "Berhasil menghadirkan fashion show dengan partisipasi 10 putra-putri kampus UMM, Miss Teen Star Jawa Timur 2023, dan Miss Cyber Mall Malang 2022."
+        "Melakukan riset kebutuhan komunikasi internal untuk pengembangan in-house magazine.",
+        "Menyusun struktur konten dan layout berdasarkan temuan riset agar sesuai kebutuhan klien.",
+        "Mendukung komunikasi antar tim untuk memastikan penyelesaian materi tepat waktu."
       ]
     }
   ]
@@ -196,57 +190,13 @@ const openSource = {
 const bigProjects = {
   title: "Selected Projects",
   subtitle:
-    "Kumpulan proyek yang menunjukkan kemampuan saya dalam strategi komunikasi, produksi konten, event management, dan public relations.",
+    "Kumpulan proyek yang menunjukkan kemampuan saya dalam event management, public relations, crisis handling, publikasi, dan komunikasi pemasaran digital.",
   projects: [
-    {
-      image: require("./assets/images/Cover Dummy 2.png"),
-      projectName: "Tirta Rhea In-House Magazine",
-      projectDesc:
-        "Proyek in-house magazine untuk BUMDes Amanah Karangsuko, mencakup riset kebutuhan, perencanaan konten, penulisan, dan pengemasan visual.",
-      footerLink: [
-        {
-          name: "Dummy In-House Magazine",
-          url: "https://drive.google.com/file/d/1Dc-3YAVeiGd6cyRbbJB1xbw_dcpTa2lH/view?usp=sharing"
-        },
-        {
-          name: "Proposal Kreatif",
-          url: "https://drive.google.com/file/d/1wrMg2YHhKUZxi_xWOJjViW2yTCaZU-ml/view?usp=sharing"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/LOGO SOSIALOKA.png"),
-      projectName: "Crisis Management",
-      projectDesc:
-        "Analisis studi kasus krisis komunikasi dan penyusunan rekomendasi strategi penanganan reputasi untuk Sosialoka.",
-      footerLink: [
-        {
-          name: "Project 1 HEINZ",
-          url: "https://drive.google.com/file/d/19_9nN_i0eDg2MDew_zVrxr-XQmgkzGRf/view?usp=sharing"
-        },
-        {
-          name: "Project 2 IDETimur",
-          url: "https://drive.google.com/file/d/1TDQEEkBZOmmBBv_hqXq7EBW8I41n2D_h/view?usp=sharing"
-        },
-        {
-          name: "Project 3 AREMA",
-          url: "https://drive.google.com/file/d/1M1YNFyDpy12HVbn3Qq-y28OT7sJnx1qr/view?usp=sharing"
-        },
-        {
-          name: "Project 4 NOIS",
-          url: "https://drive.google.com/file/d/1M8Wuu5dtcyZw17PBqPSp5mB8qYd8K1gk/view?usp=sharing"
-        },
-        {
-          name: "Project 5 Cover Clearance",
-          url: "https://drive.google.com/file/d/1OD49QGQ0yGRJEMG8HjFJ9_22OCgaNW9q/view?usp=sharing"
-        }
-      ]
-    },
     {
       image: require("./assets/images/Logo FKS.png"),
       projectName: "Festival Kreasi Sampah",
       projectDesc:
-        "Event Bank Sampah Malang yang mencakup perencanaan konsep, koordinasi stakeholder, pelaksanaan acara, dan publikasi media.",
+        "Event fashion show bersama Bank Sampah Malang yang mencakup riset audiens, konsep acara, koordinasi talent, koordinasi tim, publikasi, dokumentasi, dan pelaksanaan acara.",
       footerLink: [
         {
           name: "Proposal Kreatif",
@@ -271,6 +221,66 @@ const bigProjects = {
         {
           name: "Artikel Jawapos.com",
           url: "https://www.jawapos.com/berita-sekitar-anda/011814237/festival-kreasi-sampah-upaya-tingkatkan-kesadaran-masyakarat"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/LOGO SOSIALOKA.png"),
+      projectName: "Crisis Management",
+      projectDesc:
+        "Analisis 5 studi kasus krisis dan penyusunan proposal manajemen krisis yang mencakup pesan utama, rencana komunikasi, mitigasi risiko, dan rekomendasi tindakan.",
+      footerLink: [
+        {
+          name: "Project 1 HEINZ",
+          url: "https://drive.google.com/file/d/19_9nN_i0eDg2MDew_zVrxr-XQmgkzGRf/view?usp=sharing"
+        },
+        {
+          name: "Project 2 IDETimur",
+          url: "https://drive.google.com/file/d/1TDQEEkBZOmmBBv_hqXq7EBW8I41n2D_h/view?usp=sharing"
+        },
+        {
+          name: "Project 3 AREMA",
+          url: "https://drive.google.com/file/d/1M1YNFyDpy12HVbn3Qq-y28OT7sJnx1qr/view?usp=sharing"
+        },
+        {
+          name: "Project 4 NOIS",
+          url: "https://drive.google.com/file/d/1M8Wuu5dtcyZw17PBqPSp5mB8qYd8K1gk/view?usp=sharing"
+        },
+        {
+          name: "Project 5 Cover Clearance",
+          url: "https://drive.google.com/file/d/1OD49QGQ0yGRJEMG8HjFJ9_22OCgaNW9q/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Cover Dummy 2.png"),
+      projectName: "Tirta Rhea In-House Magazine",
+      projectDesc:
+        "Proyek in-house magazine untuk BUMDes Amanah Karangsuko, mencakup riset kebutuhan komunikasi internal, struktur konten, layout, dan penyelesaian materi bersama tim.",
+      footerLink: [
+        {
+          name: "Dummy In-House Magazine",
+          url: "https://drive.google.com/file/d/1Dc-3YAVeiGd6cyRbbJB1xbw_dcpTa2lH/view?usp=sharing"
+        },
+        {
+          name: "Proposal Kreatif",
+          url: "https://drive.google.com/file/d/1wrMg2YHhKUZxi_xWOJjViW2yTCaZU-ml/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Logo UMM.png"),
+      projectName: "PMM Desa Torongrejo",
+      projectDesc:
+        "Program Pengabdian kepada Masyarakat oleh Mahasiswa sebagai divisi publikasi, desain, dan dokumentasi. Membuat konten publikasi, membantu UMKM desa mendesain label produk, dan mendukung sosialisasi digital marketing.",
+      footerLink: [
+        {
+          name: "Artikel Ecoenzym",
+          url: "https://www.kompasiana.com/sandroromaddana_3150255/652ffb16110fce761173f0d3/pmm-kelompok-42-mengubah-sampah-organik-menjadi-ecoenzym-bersama-kelompok-wanita-tani-kwt-desa-torongrejo"
+        },
+        {
+          name: "Artikel Digital Marketing",
+          url: "https://www.kompasiana.com/sandroromaddana_3150255/6523ab074cc2af131a210293/antusias-ibu-ibu-kwt-desa-torongrejo-mengikuti-sosialisasi-digital-marketing-yang-diadakan-mahasiswa-pmm-umm"
         }
       ]
     },
@@ -349,16 +359,16 @@ const podcastSection = {
 
 const resumeSection = {
   title: "Resume",
-  subtitle: "Unduh resume saya untuk melihat pengalaman dan kompetensi secara lebih lengkap.",
+  subtitle: "Unduh resume terbaru saya untuk melihat pengalaman dan kompetensi secara lebih lengkap.",
   display: true
 };
 
 const contactInfo = {
   title: emoji("Contact Me 📧"),
   subtitle:
-    "Terbuka untuk diskusi proyek, kolaborasi, magang, dan peluang kerja di bidang komunikasi.",
+    "Terbuka untuk posisi Public Relations, Event Organizer, Marketing Communication, Media, Brand Activation, magang, dan kolaborasi proyek komunikasi.",
   number: "+62 85337729198",
-  email_address: "sandroradana@gmail.com"
+  email_address: "sandroromadana@gmail.com"
 };
 
 const twitterDetails = {

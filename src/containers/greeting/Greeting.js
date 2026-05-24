@@ -42,8 +42,8 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./CV ATS Sandro Romaddana.pdf")}
-                    download="CV ATS Sandro Romaddana.pdf"
+                    href={greeting.resumeLink}
+                    download={greeting.resumeFileName || "CV Sandro Romaddana.pdf"}
                     className="download-link-button"
                   >
                     <Button text="Download my resume" />
@@ -59,7 +59,7 @@ export default function Greeting() {
               <img
                 alt="Foto Sandro 001"
                 src={require("../../assets/images/Foto Sandro 001.jpg")}
-                style={{ maxWidth: "350px", height: "auto", borderRadius: "50%" }}
+                style={{maxWidth: "350px", height: "auto", borderRadius: "50%"}}
               ></img>
             )}
           </div>

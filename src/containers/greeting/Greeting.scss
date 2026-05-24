@@ -58,7 +58,7 @@
 .greeting-image-div {
   display: flex;
   justify-content: center;
-  transform: translateX(32px);
+  transform: translate(32px, -18px);
 }
 
 .greeting-image-div > img {
@@ -107,7 +107,7 @@
     font-size: 20px;
   }
   .greeting-image-div {
-    transform: translateX(20px);
+    transform: translate(20px, -12px);
   }
 }
 @media (max-width: 768px) {
@@ -146,7 +146,7 @@
   }
   .greeting-image-div {
     height: auto;
-    transform: none;
+    transform: translateY(-8px);
     justify-content: center;
     margin-bottom: 0;
   }

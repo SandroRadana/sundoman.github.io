@@ -39,8 +39,9 @@
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   margin: 0px;
-  text-align: justify;
-  text-align-last: left;
+  text-align: left;
+  word-spacing: normal;
+  letter-spacing: normal;
 }
 
 .go-corner {
